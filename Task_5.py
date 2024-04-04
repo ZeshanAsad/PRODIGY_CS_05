@@ -49,8 +49,8 @@ background_photo = ImageTk.PhotoImage(background_image)
 background_label = Label(root, image=background_photo)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-secret_label = Label(root, text=sniff_comp, font=("Helvetica", 8), fg="white", bg="black")
-secret_label.pack(side=BOTTOM)
+imp_func = Label(root, text=sniff_comp, font=("Helvetica", 8), fg="white", bg="black")
+imp_func.pack(side=BOTTOM)
 
 
 start_button = Button(root, text="Start Sniffing", command=start_sniffing)
